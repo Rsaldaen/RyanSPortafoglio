@@ -2,37 +2,109 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ryan S Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="./assets/style.css">
+        <link rel="stylesheet" type="text/css" href="./assets/styles.css">
     </head>
     
     <body>
 
         <header>
-            <h1>
-                Ryan Saldaen
-            </h1>
-            <img src="./assets/images/ProfilePic.jpg" alt="profile pic 1"/>
-            <nav>
-                <ul>
-                    <li id="Home">HOME</li>
-                    <li id="About">ABOUT</li>
-                    <li id="Projects">PROJECTS</li>
-                    <li id="Contact">CONTACT</li>
-                </ul>    
-            </nav>
+            <div class="container">
+                <h1>
+                    Ryan Saldaen
+                </h1>
+            
+                <nav>
+                    <a href=#About>ABOUT</a>
+                    <a href=#Projects>PROJECTS</a>
+                    <a href=#Contact>CONTACT</a>   
+                </nav>
+            </div>
         </header>
+        
+        <main class="container">
+            <div>
+                <section id="About">
+                    <div class="col-left">
+                        <h2>About</h2>
+                        <img src="./assets/images/ProfilePic.jpg" alt="profile pic 1"/>
+                    </div>
+                    <div class="col-right">
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum tempora consectetur magnam, impedit deserunt magni non ad nesciunt, eaque perferendis molestiae neque. Architecto, ipsa iusto! Veniam vitae adipisci labore mollitia? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque earum ad vitae minus possimus dolores porro eius voluptatibus suscipit sequi.
+                            </p>
+                        </div>
+                    </div>    
+                </section>
+            </div>
+            <div>
+                <div>
+            <section id = Projects>
+                <h2>Projects</h2>
+                </div>
+                <div>
+                    <figure class="works">
+                    <h3>
+                        <button onclick="window.location.href='https://pxhere.com/en/photo/1612029';">Calculator</button>
+                    </h3>
+                     <img src="./assets/images/project001.jpg" alt="project picture 1"/>
+                </figure>
+                </div>
 
-        <section>
-            <img src="./assets/images/project001.jpg" alt="project picture 1"/>
-            <img src="./assets/images/project002.png" alt="project picture 2"/> 
-            <img src="./assets/images/project003.jpg" alt="project picture 3"/>
-            <img src="./assets/images/project004.jpg" alt="project picture 4"/>
-            <img src="./assets/images/project006.png" alt="project picture 5"/>
-            <img src="./assets/images/project007.png" alt="project picture 7"/>
-        </section>
-        
-        
+                <figure class="works">
+                        <div>
+                            <h3><button onclick="window.location.href='https://pxhere.com/en/photo/1612029';">Dice Roller</button>
+                            </h3>
+                        <img src="./assets/images/project002.png" alt="project picture 2"/>  
+                    </div>
+                    </figure>    
+                
+                <div>
+                    <figure class="works">
+                        <h3><button onclick="window.location.href='https://pxhere.com/en/photo/1612029';">Timer</button>
+                        </h3>
+                        <img src="./assets/images/project003.jpg" alt="project picture 3"/>
+                    </figure>
+                </div>
+                    
+                <div>
+                    <figure class="works">
+                        <h3><button onclick="window.location.href='https://pxhere.com/en/photo/1612029';">Weather App</button>
+                        </h3>
+                        <img src="./assets/images/project004.jpg" alt="project picture 4"/>
+                    </figure>
+                </div>
+                    
+                <div>
+                    <figure class="works">
+                        <h3><button onclick="window.location.href='https://pxhere.com/en/photo/1612029';">ToDo List</button>
+                        </h3>
+                        <img src="./assets/images/project006.png" alt="project picture 5"/>
+                    </figure>
+                </div>
+                
+                <div>
+                    <figure class="works">
+                        <h3><button onclick="window.location.href='https://pxhere.com/en/photo/1612029';">Project 007</button>
+                        </h3>
+                        <img src="./assets/images/project007.png" alt="project picture 7"/>
+                    </figure>
+                </div>
+            </section>
+
+                 <div>
+                <section id="Contact">
+                    <h2>Contact</h2>
+                    <a href="https://www.Linkedin.com"><img src="./assets/images/Linkedin_icon.png" alt="Future Linkedin link" style="width:42px;height:42px;"></a>
+                    <a href="https://github.com/Rsaldaen"><img src="./assets/images/GitHub_icon.png" alt="GitHub link" style="width:42px;height:42px;"></a>
+                    <a href="mailto:ryan.saldaen@gmail.com"><img src="./assets/images/Gmail_Icon.png" alt="Gmail link" style="width:42px;height:42px;"></a>
+                </section>
+            </div>   
+        </main>
+
         
         
         
