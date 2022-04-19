@@ -19,7 +19,7 @@ header {
     background-color: #8ac4ff;
     padding: 1em 0;
     font-size: 30px;
-    display: flexwrap;
+    flex-wrap: wrap;
     text-align: center;
     border-style: none;
     border-width: 0;
@@ -41,12 +41,12 @@ button {
     padding: 10px;
     float: left;
     width: 25%;
-    display: flexwrap;
+    flex-wrap: wrap;
   }
 
 #Projects  {
     display: flexbox;
-
+    
 }
 
 header {
@@ -65,7 +65,10 @@ header {
 }
 
 #Contact {
-    text-align: center;
+  position: fixed;     
+  text-align: center;    
+  bottom: 0px; 
+  width: 100%;
 }
 
 section h2 {
@@ -80,6 +83,7 @@ section h2 {
 }
 
 .works h3 {
+    flex-wrap: wrap;
     padding: 20px;
     text-align: center;
   }
